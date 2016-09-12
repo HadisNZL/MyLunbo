@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.hadis.mylunbo.carrousel.LoopViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.hadis.mylunbo.carrousel.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@+id/viewpager"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"/>
+</RelativeLayout>
